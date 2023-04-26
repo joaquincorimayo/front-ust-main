@@ -1,0 +1,14 @@
+flutter doctor  - to see if there are any platform dependencies you need to complete the setup.
+	This command checks your environment and displays a report of the status of your Flutter installation. 
+flutter upgrade - To update the Flutter SDK
+	This command gets the most recent version of the Flutter SDK that’s available on your current Flutter channel.
+flutter pub upgrade
+	If you’ve modified your pubspec.yaml file, or you want to update only the packages that your app depends upon (instead of both the packages and Flutter itself), then use one of the flutter pub commands.
+	To update to the latest compatible versions of all the dependencies listed in the pubspec.yaml file, use the upgrade command:
+flutter pub outdated
+	To identify out-of-date package dependencies and get advice on how to update them, use the outdated command. For details, see the Dart pub outdated documentation.
+
+
+
+
+
